@@ -2,3 +2,40 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 35%, rgba(0,212,255,1) 100%);
 }   
+
+.game-button {
+    position: absolute;
+    left: 780px;
+    top: 100px;
+    background-color: green;
+    padding: 50px 100px;
+    border: 10px solid rgb(0, 68, 255);
+    border-radius: 5px;
+    color: red;
+    font-size: 90px;
+    cursor: pointer;
+}
+.opt-button {
+    position: absolute;
+    left: 780px;
+    top: 400px;
+    background-color: green;
+    padding: 50px 100px;
+    border: 10px solid rgb(255, 153, 0);
+    border-radius: 5px;
+    color: red;
+    font-size: 90px;
+    cursor: pointer;
+}
+.git-button {
+    position: absolute;
+    left: 780px;
+    top: 700px;
+    background-color: green;
+    padding: 50px 100px;
+    border: 10px solid lime;
+    border-radius: 5px;
+    color: red;
+    font-size: 90px;
+    cursor: pointer;
+}
