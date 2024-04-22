@@ -5,7 +5,7 @@ body {
 
 .game-button {
     position: absolute;
-    left: 780px;
+    left: 800px;
     top: 100px;
     background-color: green;
     padding: 50px 100px;
@@ -17,7 +17,7 @@ body {
 }
 .opt-button {
     position: absolute;
-    left: 780px;
+    left: 650px;
     top: 400px;
     background-color: green;
     padding: 50px 100px;
@@ -29,7 +29,7 @@ body {
 }
 .git-button {
     position: absolute;
-    left: 780px;
+    left: 750px;
     top: 700px;
     background-color: green;
     padding: 50px 100px;
