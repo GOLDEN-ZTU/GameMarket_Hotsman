@@ -39,3 +39,11 @@ body {
     font-size: 90px;
     cursor: pointer;
 }
+a {
+    color: #000; 
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+}
