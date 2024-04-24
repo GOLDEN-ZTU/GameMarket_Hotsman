@@ -1,0 +1,18 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(57, 49, 212) 0%, rgb(22, 1, 143) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 30px ;
+}
+div{
+    border: 1px solid rgb(18, 5, 95);
+    border-radius: 15px;
+    font-size: 50px;
+    background: rgb(152, 149, 211);
+    background:linear-gradient(90deg, rgb(177, 94, 0) 0%, rgb(143, 70, 1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
