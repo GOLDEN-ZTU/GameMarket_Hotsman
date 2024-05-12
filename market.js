@@ -1,11 +1,24 @@
-console.log('Перевірка підключеного файлу скриптів market.js')
+
+let itemsArray = [
+'Газонокосарка 43',
+'Електричний тример 110',
+'Електрична газонокосарка 32',
+'Акумуляторний оприскувач 12 N',
+]
+
 let itemsDiv = document.getElementById("items");
-console.log(itemsDiv);
+
 if (itemsDiv) {
-    console.log(itemsDiv)
-    for(let i=0;i<100; i++) {
-        itemsDiv.innerHTML+='<div class="item"></div>'
-    }
-    } else {
+    itemsArray.forEach((item,index) => {
+        itemsDiv.innerHTML +=
+        `
+        <div class="item">
+            <h2>Товар №${index}</h2>
+            <p>${item}</p>
+        </div>
+        `
+    })
+} 
+else {
     console.log('Блок товарів не знайдено')
 }
