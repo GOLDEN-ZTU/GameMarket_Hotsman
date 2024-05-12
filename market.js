@@ -3,7 +3,7 @@ let itemsDiv = document.getElementById("items");
 console.log(itemsDiv);
 if (itemsDiv) {
     console.log(itemsDiv)
-    for(let i=0<100; i++) {
+    for(let i=0;i<100; i++) {
         itemsDiv.innerHTML+='<div class="item"></div>'
     }
     } else {
