@@ -9,10 +9,11 @@ let itemsDiv = document.getElementById("items");
 
 if (itemsDiv) {
     itemsArray.forEach((item, index) => {
+        let itemNumber = (index + 1).toString().padStart(2, ''); 
         itemsDiv.innerHTML +=
         `
         <div class="item">
-            <h2>Товар №${index + 1}</h2>
+            <h2>товар №${itemNumber} з 4</h2>
             <p>${item}</p>
         </div>
         `;
