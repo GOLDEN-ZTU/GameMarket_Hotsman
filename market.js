@@ -1,22 +1,23 @@
-let itemsDiv = document.getElementById("items");
-console.log(itemsDiv);
-if(itemsDiv){
-    console.log(itemsDiv);
-    //console.log('Поле classList: ', itemsDiv.classList)
-    //console.log('Поле id: ', itemsDiv.id)
-    //console.log('Поле clientWidth: ', itemsDiv.classWidth)
-    //console.log('Поле innerHTML: ', itemsDiv.innerHTML)
+let itemsArray = [
+    'Газонокосарка 43',
+    'Електричний тример 110',
+    'Електрична газонокосарка 32',
+    'Акумуляторний оприскувач 12 N',
+];
 
-    //itemsDiv.innerText = 'повартсмщдшр'
-    //itemsDiv.innerHTML = '<h1>acoustic</h1>'
-    //itemsDiv.innerHTML = '<div class="item></div>"'
-    //itemsDiv.innerHTML = '<div class="item></div>"'
-    //itemsDiv.innerHTML = '<div class="item></div>"'
-    //itemsDiv.innerHTML = '<div class="item></div>"'
-    // for(let i=0;i<100;i++){
-    //    itemsDiv.innerHTML += '<div class="item></div>"'
-    // }
-}
-else{
-    console.log('Блок товарів не знайдено')
+let itemsDiv = document.getElementById("items");
+
+if (itemsDiv) {
+    itemsArray.forEach((item, index) => {
+        let itemNumber = (index + 1).toString().padStart(2, ''); 
+        itemsDiv.innerHTML +=
+        `
+        <div class="item">
+            <h2>товар №${itemNumber} з 4</h2>
+            <p>${item}</p>
+        </div>
+        `;
+    });
+} else {
+    console.log('Блок товарів не знайдено');
 }
