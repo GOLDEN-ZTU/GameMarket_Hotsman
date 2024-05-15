@@ -17,7 +17,7 @@ if (itemsDiv) {
         itemsDiv.innerHTML +=
         `
         <div class="item">
-            <h2>товар №${index+1} з ${itemsArray.length}</h2>
+            <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
             <p>${item.firsName} ${item.lastName}</p>
             <p>Предмет:${item.subject}</p>
             <p><img src=${item.photo}" class= "item-image"></p>
